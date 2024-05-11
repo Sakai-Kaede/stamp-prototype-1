@@ -15,10 +15,10 @@ app.set('views', './views');
 
 const pool = mysql.createPool({
   connectionLimit: 10,
-  host: 'localhost',
-  user: 'root',
-  password: 'password',
-  database: 'image-uploader',
+  host: '-----',
+  user: '----',
+  password: '----',
+  database: '----',
 });
 
 app.get('/', (req, res) => {
